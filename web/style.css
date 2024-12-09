@@ -1,0 +1,174 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Profesjonalna czcionka */
+    margin: auto;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#header {
+    background-color: #333;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+
+#searchForm {
+    text-align: center;
+    margin-bottom: 20px;
+    margin:10px;
+}
+
+#query[type="text"] {
+    padding: 12px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#query[type="text"]:focus {
+    border-color: #007bff; 
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.show-card {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px; 
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.show-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.show-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.show-card h3 {
+    font-size: 2rem; 
+    margin: 10px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.show-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.show-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.show-card a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.show-card {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.show-card h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.show-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.show-card .movie-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.show-card .movie-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.show-card p strong {
+    font-weight: 700;
+    color: #222;
+}
+
+.show-card p {
+    font-size: 1.2rem;
+}
+
+
+.show-card p strong + span {
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
